@@ -6,10 +6,10 @@
 //
 //
 
-@import Foundation;
-@import UIKit;
-@import Accelerate;
-@import CoreImage;
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <Accelerate/Accelerate.h>
+#import <CoreImage/CoreImage.h>
 
 @interface UIImage (BEKit)
 

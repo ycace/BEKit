@@ -6,7 +6,7 @@
 //  Copyright (c) 2016 孙丹龙. All rights reserved.
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
 #define BE_AppDelegate ((BEAppDelegate *)[[UIApplication sharedApplication] delegate])
 

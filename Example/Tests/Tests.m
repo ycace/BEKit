@@ -2,8 +2,8 @@
 //  BEKitTests.m
 //  BEKitTests
 //
-//  Created by sundl1988@163.com on 04/06/2017.
-//  Copyright (c) 2017 sundl1988@163.com. All rights reserved.
+//  Created by sundl1988@163.com on 09/11/2018.
+//  Copyright (c) 2018 sundl1988@163.com. All rights reserved.
 //
 
 // https://github.com/Specta/Specta

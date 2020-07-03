@@ -6,7 +6,7 @@
 //
 //
 
-@import Foundation;
+#import <Foundation/Foundation.h>
 
 /**
  *  The simplified date structure

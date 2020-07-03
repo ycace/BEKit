@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## BEKit
 
-Copyright (c) 2017 sundl1988@163.com <sundanlong@gmail.com>
+Copyright (c) 2018 sundl1988@163.com <sundl1988@163.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

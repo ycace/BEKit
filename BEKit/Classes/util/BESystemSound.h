@@ -6,8 +6,8 @@
 //
 //
 
-@import AudioToolbox;
-@import Foundation;
+#import <Foundation/Foundation.h>
+#import <AudioToolbox/AudioToolbox.h>
 
 /**
  *  Audio IDs enum - http://iphonedevwiki.net/index.php/AudioServices

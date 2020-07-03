@@ -3,13 +3,13 @@
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
+# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
 #
 
 Pod::Spec.new do |s|
   s.name             = 'BEKit'
-  s.version          = "0.8.7"
-  s.summary          = "BEKit是基础扩展工具包（Base Extended Kit）核心代码."
+  s.version          = '1.0.1'
+  s.summary          = 'BEKit是基础扩展工具包（Base Extended Kit）核心代码.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,15 +21,14 @@ Pod::Spec.new do |s|
                         BEKit（Base Extended Kit）是一些基础功能代码、工具类、基类的集合，旨在快速实现基础功能。
                        DESC
 
-  s.homepage         = "http://iospai.com"
+  s.homepage         = 'http://iospai.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '孙丹龙' => 'sundanlong@gmail.com' }
-  s.source           = { :git => "https://github.com/iosmvn/BEKit.git", :tag => s.version.to_s }
+  s.author           = { 'sundl1988' => 'sundl1988@163.com' }
+  s.source           = { :git => 'https://github.com/iosmvn/BEKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-  s.requires_arc = true
 
   s.source_files = 'BEKit/Classes/**/*'
   
@@ -39,5 +38,6 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'Accelerate', 'AudioToolbox'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

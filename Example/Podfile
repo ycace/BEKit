@@ -14,4 +14,3 @@ target 'BEKit_Example' do
         pod 'Expecta+Snapshots'
     end
 end
-

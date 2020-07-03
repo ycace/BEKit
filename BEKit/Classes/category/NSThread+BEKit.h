@@ -6,7 +6,7 @@
 //
 //
 
-@import Foundation;
+#import <Foundation/Foundation.h>
 
 NS_INLINE void be_runOnMainThread(void  (^ _Nonnull block)(void)) {
     dispatch_async(dispatch_get_main_queue(), ^{
